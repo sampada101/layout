@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 10;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width: 1002px;
+  border-style: hidden;
+  background-color: black
+}
+
+.inner-header{
+  border-style: hidden;
+  height: 50px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding: 10px;
+  border-color: red;
+}
+.test, .inner-inner-header, .inner-inner-header-2{
+  border-style: hidden;
+  border-width: 1px;
+  height: 25px;
+  width: 150px;
+  float: left;
+  padding-right: 10px;
+}
+.test{
+	padding-left: 10px;
+	border-style: hidden;
+}
+.inner-inner-header-2{
+	width: 300px;
+}
+.header {
+  padding: 20px;
+  border-style: hidden;
+  height: 150px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-color: blue;
+}	
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 20%;
+  height: 500px;
+  border-style: hidden;
+}
+
+/* Middle column */
+.column.middle {
+  width: 60%;
+  border-style: hidden;
+  height: 500px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-top: 10px
+}
+.mid{
+	border-style: hidden;
+	padding: 10px
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+.inner-middle{
+	width: 519px;
+	height: 420px;
+	border-style: hidden;
+}
